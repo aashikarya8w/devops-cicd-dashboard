@@ -9,11 +9,7 @@ pipeline {
 
     stages {
 
-        stage('Clone Repository') {
-            steps {
-                git 'YOUR_GITHUB_REPO_URL'
-            }
-        }
+        
 
         stage('Install Dependencies') {
             steps {
