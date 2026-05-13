@@ -29,3 +29,6 @@ docker build -t react-app .
 
 ### Run Docker Container
 docker run -d -p 3000:80 react-app
+## Webhook Testing
+
+GitHub webhook automation enabled.
